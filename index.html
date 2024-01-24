@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en"data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/6dce02e5dc.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+  .font-monrope{
+    font-family: 'Manrope', sans-serif;
+  }
+</style>
+    <title>Hockey-Website-Landing-Page</title>
+
+  </head>
+
+  <body class="font-monrope">
+
+    <section class="lg:container lg:mx-auto">
+         
+        <!-- Navbar Section -->
+      <nav>
+        <div class="navbar lg:mt-10 ">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                 </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-3xl lg:text-4xl  font-extrabold">Hockey<span style="color: #FF4240;">’</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-[17px]">
+                <li><a class="hover:text-[#FF4240]">Home</a></li>
+                <li><a class="hover:text-[#FF4240]">About</a></li>
+                <li><a class="hover:text-[#FF4240]">Pages</a></li>
+                <li><a class="hover:text-[#FF4240]">Blog</a></li>
+                <li><a class="hover:text-[#FF4240]">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="navbar-end">
+                <i  class="fas fa-search mr-5 cursor-pointer opacity-0 lg:opacity-100 "></i> <a class="btn bg-[#FF4240] text-white hover:bg-black hover:text-[#FF4240]">Get Ticket</a>
+            </div>
+          </div>
+      </nav>
+
+
+
+      <!-- banner Section -->
+      <div class="banner lg:mx-5 mx-2">
+
+        <div class="carousel w-full my-10">
+
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full z-0" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+              <!-- badge -->
+              <div class=" flex flex-col lg:opacity-100 opacity-0  ml-10 lg:bottom-10  lg:left-[920px] gap-4 bg-black rounded-2xl absolute   lg:p-8 p-2 ">
+                <h1 class="text-2xl text-white">Meet all the heroes from the field</h1>
+                <p class="text-sm text-zinc-400">One of the E.H.C. Alliance's newest clubs is, in fact, its newest club. In the midst of the ongoing war..</p>
+               </div>
+            </div> 
+            
+            
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="Images/4.png" class="w-full"/>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+                 </div>
+                 <!-- badge -->
+                <div class=" flex flex-col lg:opacity-100 opacity-0 lg:bottom-10  lg:left-[920px]  gap-4 bg-black rounded-2xl absolute lg:p-8 p-2 ">
+                <h1 class="text-2xl text-white">Meet all the heroes from the field</h1>
+                <p class="text-sm text-zinc-400">One of the E.H.C. Alliance's newest clubs is, in fact, its newest club. In the midst of the ongoing war..</p>
+               </div>
+            </div> 
+
+          </div>
+
+      </div>
+
+
+
+                <!-- badge -->
+                <div class=" flex flex-col lg:opacity-0 opacity-100  gap-2 bg-black rounded-xl p-5 mx-2 ">
+                <h1 class="text-2xl text-white">Meet all the heroes from the field</h1>
+                <p class="text-sm text-zinc-400">One of the E.H.C. Alliance's newest clubs is, in fact, its newest club. In the midst of the ongoing war..</p>
+               </div>
+
+
+
+
+      <!-- Professional Section -->
+      <div class="professional divide-y divide-dashed">
+        <div class="flex flex-col text-center gap-5 mb-10  ">
+            <h1 class="font-bold text-[29px] px-2 lg:text-4xl mt-8 ">Professional Hockeys Club</h1>
+            <p class="lg:text-sm  px-2">2022/23 and won four of 30 regular-season games in the Ukrainian Hockey League.</p>
+        </div>
+
+       
+        <!-- <div class="flex justify-around items-center text-center p-20 "> -->
+        <div class="grid grid-cols-1 lg:grid-cols-4 place-items-center text-center sm:mb-10 lg:p-10">
+            <div class="mt-8 lg:mt-0">
+                <div class=" radial-progress text-red-700 font-extrabold" style="--value:67; --size:8rem" role="progressbar">67%</div>
+                <p class="text-xl font-bold my-2">Prayer Facility</p>
+                <p>2015 and 2016 (Mites)</p>
+            </div>
+            <div class="mt-8 lg:mt-0">
+                <div class="radial-progress text-green-600 font-extrabold" style="--value:85;--size:8rem" role="progressbar">85%</div>
+                <p class="text-xl font-bold my-2">Experienced Coach</p>
+                <p>2013 and 2014 (Squirts, and Girls U10)</p>
+            </div>
+            <div class="mt-8 lg:mt-0">
+                <div class="radial-progress text-yellow-600 font-extrabold" style="--value:90;--size:8rem" role="progressbar">90%</div>
+                <p class="text-xl font-bold my-2">Senior Player</p>
+                <p>2011 and 2012 (Girls U12)</p>
+            </div>
+            <div class="my-8 lg:mt-0">
+                <div class="radial-progress text-blue-600 font-extrabold" style="--value:74;--size:8rem" role="progressbar">74%</div>
+                <p class="text-xl font-bold my-2">Training Ground</p>
+                <p>2009 and 2010 (Bantams U14)</p>
+            </div>
+        </div>
+      </div>
+      <hr>
+
+
+
+
+      <!-- Program Section -->
+      <div class="program">
+        <div class="flex flex-col text-center gap-5 mb-10">
+            <h1 class="font-bold text-4xl mt-8">Program Sections</h1>
+            <p class="lg:text-sm  px-2">Following tryouts, the season will start in September 2023 and run through April 2024.</p>
+        </div>
+      </div>
+      <hr>
+
+
+     <div class="items-center mb-10 ">
+
+      <div class="card flex lg:flex-row mx-2 flex-col my-10 gap-6 justify-center">
+        <div class="card1">
+          <div class="card lg:w-[573px] bg-base-100 shadow-xl image-full">
+          <figure><img src="Images/2.png" alt="Shoes" /></figure>
+          <div class="card-body lg:pt-28">
+            <h2 class="card-title ">Junior Program</h2>
+            <p>These programs offer opportunities for kids to learn and play youth hockey with practices at Ed Burns Arena in Arlington.</p>
+            <div class="card-actions ">
+              <button class="btn hover:text-black bg-[#FF4240] text-white border-none">Register Now!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="card2">
+          <div class="card lg:w-[573px] bg-base-100 shadow-xl image-full">
+            <figure><img src="Images/3.png" alt="Shoes" /></figure>
+             <div class="card-body lg:pt-28">
+              <h2 class="card-title">Teenager Program</h2>
+              <p>These programs offer opportunities for kids to learn and play youth hockey with practices.</p>
+           <div class="card-actions ">
+             <button class="btn hover:text-black bg-[#FF4240] text-white border-none">Register Now!</button>
+           </div>
+         </div>
+        </div>
+       </div>
+    </div>
+
+<div class="card3 flex justify-center mx-2">
+  <div class="card lg:w-[1170px] bg-base-100 shadow-xl image-full">
+    <figure><img src="Images/4.png" alt="Shoes" /></figure>
+    <div class="card-body lg:pt-32">
+      <h2 class="card-title">Professional Program</h2>
+      <p>These programs offer opportunities for kids to learn and play youth hockey with practices at Ed Burns Arena.</p>
+      <div class="card-actions">
+        <button class="btn hover:text-black bg-[#FF4240] text-white border-none">Register Now!</button>
+      </div>
+    </div>
+  </div>
+</div>
+     </div>
+      
+
+
+
+      <!-- Products Section -->
+      <div class="product">
+        <hr>
+        <div class="flex flex-col text-center gap-5 mb-10">
+          <h1 class="font-bold text-4xl mt-10">Our New Products</h1>
+          <p>The season will start in September 2023 and run through April 2024. <br> We look forward to seeing you at the rink!!</p>
+      </div>
+    </div>
+    <hr>
+
+    <div class="lg:mx-0 cursor-pointer">
+
+    <div class="flex justify-center lg:flex-row flex-col">
+      <div class="card card-side flex-col lg:flex-row lg:w-[550px] border-2 border-[(19, 19, 24, 0.10)] m-10">
+        <figure class="p-3"><img src="Images/5.png" alt="Shirt"/></figure>
+        <div class="card-body">
+          <div class="flex my-2">
+            <p><i class="fa-solid fa-star text-orange-400"></i>  5.0</p>
+            <p><i class="fa-regular fa-eye"></i>20</p>
+            <p><i class="fa-regular fa-heart"></i>245</p>
+          </div>
+          <h2 class="card-title font-bold">World Cup Flags Football</h2>
+          <p>This page provides information on how the Arlington Hockey Club's programs</p>
+          <div class="flex flex-col lg:flex-row mt-5">
+            <p class="text-red-700 font-bold">Price - $22.00</p>
+            <p><i class="fa-solid fa-cart-shopping pr-2 mt-2"></i> Delivery Fee:Free</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="card card-side flex-col lg:flex-row lg:w-[550px] border-2 border-[(19, 19, 24, 0.10)] m-10">
+        <figure class="p-3"><img src="Images/6.png" alt="Shirt"/></figure>
+        <div class="card-body">
+          <div class="flex my-2">
+            <p><i class="fa-solid fa-star text-orange-400"></i>  5.0</p>
+            <p><i class="fa-regular fa-eye"></i>20</p>
+            <p><i class="fa-regular fa-heart"></i>245</p>
+          </div>
+          <h2 class="card-title">World Cup Flags Football</h2>
+          <p>This page provides information on how the Arlington Hockey Club's programs</p>
+          <div class="flex flex-col lg:flex-row mt-5">
+            <p class="text-red-700 font-bold">Price - $22.00</p>
+            <p> <i class="fa-solid fa-cart-shopping pr-2 mt-2"></i> Delivery Fee:Free</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="flex justify-center lg:flex-row flex-col">
+      <div class="card card-side flex-col lg:flex-row  lg:w-[550px] border-2 border-[(19, 19, 24, 0.10)] m-10">
+        <figure class="p-3"><img src="Images/7.png" alt="Shirt"/></figure>
+        <div class="card-body">
+          <div class="flex my-2">
+            <p><i class="fa-solid fa-star text-orange-400"></i>5.0</p>
+            <p><i class="fa-regular fa-eye"></i>20</p>
+            <p><i class="fa-regular fa-heart"></i>245</p>
+          </div>
+          <h2 class="card-title">World Cup Flags Football</h2>
+          <p>This page provides information on how the Arlington Hockey Club's programs</p>
+          <div class="flex flex-col lg:flex-row mt-5">
+            <p class="text-red-700 font-bold">Price - $22.00</p>
+            <p> <i class="fa-solid fa-cart-shopping pr-2 mt-2"></i> Delivery Fee:Free</p>
+          </div>
+        </div>
+      </div>
+      <div class="card card-side flex-col lg:flex-row lg:w-[550px] border-2 border-[(19, 19, 24, 0.10)] m-10">
+        <figure class="p-3"><img src="Images/8.png" alt="Shirt"/></figure>
+        <div class="card-body">
+          <div class="flex my-2">
+            <p><i class="fa-solid fa-star text-orange-400"></i>  5.0</p>
+            <p><i class="fa-regular fa-eye"></i>20</p>
+            <p><i class="fa-regular fa-heart"></i>245</p>
+          </div>
+          <h2 class="card-title">World Cup Flags Football</h2>
+          <p>This page provides information on how the Arlington Hockey Club's programs</p>
+          <div class="flex flex-col lg:flex-row mt-5">
+            <p class="text-red-700 font-bold">Price - $22.00</p>
+            <p> <i class="fa-solid fa-cart-shopping pr-2 mt-2"></i> Delivery Fee:Free</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="flex justify-center lg:flex-row flex-col">
+      <div class="card card-side flex-col lg:flex-row lg:w-[550px] border-2 border-[(19, 19, 24, 0.10)] m-10">
+        <figure class="p-3"><img src="Images/9.png" alt="Shirt"/></figure>
+        <div class="card-body">
+          <div class="flex my-2">
+            <p><i class="fa-solid fa-star text-orange-400"></i>  5.0</p>
+            <p><i class="fa-regular fa-eye"></i>20</p>
+            <p><i class="fa-regular fa-heart"></i>245</p>
+          </div>
+          <h2 class="card-title">World Cup Flags Football</h2>
+          <p>This page provides information on how the Arlington Hockey Club's programs</p>
+          <div class="flex flex-col lg:flex-row mt-5">
+            <p class="text-red-700 font-bold">Price - $22.00</p>
+            <p> <i class="fa-solid fa-cart-shopping pr-2 mt-2"></i> Delivery Fee:Free</p>
+          </div>
+        </div>
+      </div>
+      <div class="card card-side flex-col lg:flex-row lg:w-[550px] border-2 border-[(19, 19, 24, 0.10)] m-10">
+        <figure class="p-3"><img src="Images/10.png" alt="Shirt"/></figure>
+        <div class="card-body">
+          <div class="flex my-2">
+            <p><i class="fa-solid fa-star text-orange-400"></i>  5.0</p>
+            <p><i class="fa-regular fa-eye"></i>20</p>
+            <p><i class="fa-regular fa-heart"></i>245</p>
+          </div>
+          <h2 class="card-title">World Cup Flags Football</h2>
+          <p>This page provides information on how the Arlington Hockey Club's programs</p>
+          <div class="flex flex-col lg:flex-row mt-5">
+            <p class="text-red-700 font-bold">Price - $22.00</p>
+            <p> <i class="fa-solid fa-cart-shopping pr-2 mt-2"></i> Delivery Fee:Free</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      </div>
+
+
+
+
+      <!-- Question Section -->
+      <div class="Question">
+
+        
+          <div class="flex flex-col text-center gap-5 m-10  border-dotted border-y-2">
+           <h1 class="font-bold text-4xl mt-10">Clients Question</h1>
+          <p class="pb-10">The season will start in September 2023 and run through April 2024 We look.</p>
+         </div>
+        
+
+
+         <div class="flex lg:flex-row flex-col justify-center gap-5 p-9 my-10 border-solid border-2 rounded-xl border-[(19, 19, 24, 0.10)] ">
+
+          <div><img src="Images/11.png" alt=""></div>
+
+          <div class="">
+
+            <div tabindex="0" class="collapse collapse-plus lg:w-[900px]  border border-base-300 bg-base-200">
+              <div class="collapse-title text-xl font-medium">
+                Our Equipment
+              </div>
+              <div class="collapse-content"> 
+                <p>1.Hockey Stick, 2.Shoes, 3.Mouth Guard, 4.Shin Guards, 5.Ball
+                </p>
+              </div>
+            </div>
+
+            <div tabindex="0" class="collapse collapse-plus border mt-5 border-base-300 bg-base-200">
+              <div class="collapse-title text-xl font-medium">
+                Hockey Training
+              </div>
+              <div class="collapse-content"> 
+                <p>The type of hockey equipment needed differs if youre playing as a goalie. </p>
+              </div>
+            </div>
+            <div tabindex="0" class="collapse collapse-plus border mt-5 border-base-300 bg-base-200">
+              <div class="collapse-title text-xl font-medium">
+                Private Lessons
+              </div>
+              <div class="collapse-content"> 
+                <p>The type of hockey equipment needed differs if youre playing as a goalie. </p>
+              </div>
+            </div>
+            <div tabindex="0" class="collapse collapse-plus border mt-5 border-base-300 bg-base-200">
+              <div class="collapse-title text-xl font-medium">
+                Ski Touring
+              </div>
+              <div class="collapse-content"> 
+                <p>The type of hockey equipment needed differs if youre playing as a goalie. </p>
+              </div>
+            </div>
+            <div tabindex="0" class="collapse collapse-plus border mt-5 border-base-300 bg-base-200">
+              <div class="collapse-title text-xl font-medium">
+                Booking
+              </div>
+              <div class="collapse-content"> 
+                <p>The type of hockey equipment needed differs if youre playing as a goalie. </p>
+              </div>
+            </div>
+            <div tabindex="0" class="collapse collapse-plus border mt-5 border-base-300 bg-base-200">
+              <div class="collapse-title text-xl font-medium">
+                Pricings
+              </div>
+              <div class="collapse-content"> 
+                <p>The type of hockey equipment needed differs if youre playing as a goalie. </p>
+              </div>
+            </div>
+          </div>
+         </div>
+    </div>
+
+
+
+
+
+      <!-- Contact Section -->
+
+      <div class="contact">
+        <div class="flex flex-col text-center gap-5 m-10  border-dotted border-y-2">
+          <h1 class="font-bold text-4xl mt-10">Get In Touch</h1>
+         <p class="pb-10">The Best of ActiveSG Circle delivered straight to you!</p>
+        </div>
+        <div class="flex lg:flex-row flex-col justify-center">
+          <div class="l-side lg:m-20 mx-2 border-solid border-2 border-[(188, 237, 109, 0.10)] rounded-xl cursor-pointer">
+            <div class="call p-10 bg-[#bced6d1a] lg:w-[374px] m-5"><img src="Images/Group 1171275317.png" alt=""><p class="py-5">Phone Number:</p> <h2 class="font-bold text-lg">(+62) 123-321-543</h2></div>
+            <div class="mail p-10 bg-[#fddd5f1a] lg:w-[374px] m-5"><img src="Images/Group 1171275318.png" alt=""><p class="py-5">Email:</p><h2 class="font-bold text-lg">hockey@support</h2></div>
+            <div class="location p-10 bg-[#629cf31a] lg:w-[374px] m-5"><img src="Images/Group 1171275321.png" alt=""><p class="py-5">Location:</p><h2 class="font-bold text-lg">152/1 Mohakhali Wireless Gate</h2></div>
+          </div>
+         <div class="grid lg:grid-flow-col-2 grid-flow-col-1 place-content-center ">
+            <div class="flex mt-10 flex-col lg:flex-row gap-5">
+              <div class="">
+                <div class="">
+                  <label  class="block text-lg font-bold leading-6">Your Name</label>
+                  <div class="mt-2">
+                    <div class="flex justify-start rounded-md bg-[#13131808] w-[350px] ">
+                      <span class="flex select-none items-center pl-3 text-gray-500 "></span>
+                      <input type="text" name="username" id="username" autocomplete="username" class="block flex-1 border-0 bg-transparent py-3 pl-1  placeholder:text-gray-400 " placeholder="Enter your full name">
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="">
+              <div class="sm:col-span-4">
+                <label for="username" class="block text-lg font-bold leading-6">Your Email</label>
+                <div class="mt-2">
+                  <div class="flex justify-start rounded-md bg-[#13131808] w-[350px]">
+                    <span class="flex select-none  items-center pl-3 text-gray-500 sm:text-sm"></span>
+                    <input type="text" name="username" id="username" autocomplete="username" class="block flex-1 border-0 bg-transparent py-3 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" placeholder="Enter your email">
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+            <div class="flex my-16 flex-col lg:flex-row gap-5 ">
+              <div class="">
+                <div class="sm:col-span-4">
+                  <label for="username" class="block text-lg font-bold leading-6">Subject</label>
+                  <div class="mt-2">
+                    <div class="flex justify-start rounded-md bg-[#13131808] w-[350px]">
+                      <span class="flex select-none items-center pl-3 text-gray-500 sm:text-sm"></span>
+                      <input type="text" name="username" id="username" autocomplete="username" class="block flex-1 border-0 bg-transparent py-3 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" placeholder="Enter your Subject">
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="">
+              <div class="sm:col-span-4">
+                <label for="username" class="block text-lg font-bold leading-6">Phone Number</label>
+                <div class="mt-2">
+                  <div class="flex justify-start rounded-md bg-[#13131808] w-[350px]">
+                    <span class="flex select-none  items-center pl-3 text-gray-500 sm:text-sm"></span>
+                    <input type="text" class="block flex-1 border-0 bg-transparent py-3 pl-1 placeholder:text-gray-400 " placeholder="Enter your Phone Number">
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-span-full ">
+          <label  class="block text-lg font-bold leading-6 ">Message</label>
+          <div class="mt-2">
+            <textarea placeholder="Write your message" class="block  w-full   bg-[#13131808] outline-none rounded-md border-0 py-3   lg:h-[270px] h-[100px] placeholder:text-gray-400 placeholder:p-3  "></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn hover:text-black bg-[#FF4240] text-white my-5 lg:w-[750px] ">Send Message</button>
+      </div>
+      </div>
+
+
+
+
+
+
+      <!-- Social Media Section -->
+      <div class="flex flex-col rounded-md bg-[#13131808] mb-10 p-10">
+        <h1 class="text-4xl font-extrabold text-center">Social Media</h1>
+        <div class="flex justify-center  mt-5  gap-8">
+        <i class="fa-brands fa-twitter text-[25px] cursor-pointer"></i>
+        <i class="fa-brands fa-facebook-f text-[25px] cursor-pointer"></i>
+        <i class="fa-brands fa-instagram text-[25px] cursor-pointer"></i>
+        <i class="fa-brands fa-github text-[25px] cursor-pointer"></i>
+      </div>
+      </div>
+
+
+    </section>
+
+
+
+
+
+    <!-- Footer Section -->
+
+    <footer class="footer  bg-black text-white p-28 justify-around  lg:text-start text-center">
+
+      <!-- box-1 -->
+      <div class="px-20">
+        <h1 class="text-[31px] lg:text-start text-center">Get In Touch</h1>
+        <p class="lg:pr-20 my-5">The Best of ActiveSG Circle delivered <br> straight to you</p>
+        <div class="flex cursor-pointer">
+          <i class="fa-regular fa-envelope text-orange-700"></i>
+          <p class="ml-3 font-extralight">hockeys@support.com</p>
+        </div>
+        <div class="flex cursor-pointer">
+          <i class="fa-solid fa-phone text-orange-700"></i>
+          <p class="ml-3 ">(+62) 123-321-543</p>
+        </div>
+      </div>
+      
+      
+
+      <!-- Box-2 -->
+
+<div class="flex lg:gap-72 gap-20 px-10 lg:mt-0 mt-10  ">
+
+  <nav class="flex flex-col gap-4">
+    <header class="footer-title text-lg">Company</header> 
+    <a class="link link-hover">About us</a>
+    <a class="link link-hover">Leadership</a>
+    <a class="link link-hover">Careers</a>
+    <a class="link link-hover">News & Article</a>
+  </nav> 
+
+  <nav class="flex flex-col gap-4 ">
+    <header class="footer-title text-lg">Support</header> 
+    <a class="link link-hover">Help Center</a>
+    <a class="link link-hover">Ticket Support</a>
+    <a class="link link-hover">Contact Us</a>
+    <a class="link link-hover">FAQ</a>
+  </nav> 
+
+</div>
+
+
+           <!-- box-3 -->
+
+      <nav class="grid place-content-center text-center px-32">
+        <header class="footer-title text-lg lg:pt-0 pt-10">Services</header> 
+        <a class="link link-hover">Group Lesson</a>
+        <a class="link link-hover">Private Lesson</a>
+      </nav>
+
+    </footer>
+
+
+
+  </body>
+</html>
